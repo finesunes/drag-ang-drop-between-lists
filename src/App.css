@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: '. list1 list2 .';
+  align-items: center;
+  grid-column-gap: 24px;
+  height: 100%;
+}
+
+.list1 {
+  grid-area: list1;
+}
+
+.list2 {
+  grid-area: list2;
+}
